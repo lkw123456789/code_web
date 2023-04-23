@@ -62,7 +62,7 @@ $(function() {
         // 1 阻止默认的提交行为
        e.preventDefault() 
        $.ajax({
-        url: 'http://www.liulongbin.top:3007/api/login',
+        url: '/api/login',
         method: 'POST',
         // 快速获取表单中的数据
         data: $(this).serialize(),

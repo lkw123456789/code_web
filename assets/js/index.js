@@ -25,7 +25,7 @@ $(function() {
 function getUserInfo() {
     $.ajax({
         method:'GET',
-        url: 'http://www.liulongbin.top:3007/my/userinfo',
+        url: '/my/userinfo',
         // Headers 就是请求头部配置对象
         // headers: {
         //     Authorization: localStorage.getItem('token') || ''
